@@ -1,0 +1,33 @@
+$main-color: #284066;
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  nav {
+    background-color: $main-color;
+  }
+
+  .page-footer {
+    background-color: $main-color;
+    text-align: center
+  }
+
+  .brand-logo img {
+    height: 56px;
+    margin-left: 20px;
+    
+  }
+
+  @media only screen and (max-width: 420px) {
+    nav {
+      height: 64px;
+      line-height: 64px;
+    }
+  }
